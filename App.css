@@ -1,0 +1,160 @@
+
+.App {
+  text-align: center;
+}
+
+/* Cart Icon */
+.cart
+{
+  float:right;
+  text-align:right;
+  width:50%;
+}
+/* Side options icon */
+.options
+{
+  float:left;
+  width:50%;
+}
+/* Alignment of the page */
+.spacing
+{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  
+}
+/* background for the product*/
+.spacing1
+{
+  
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:600px ;
+   background-color:rgba(64, 130, 183, 1);
+}
+
+/* Positioning of the bottles */
+#skincare
+{
+  height:300px;
+  background-color:white;
+  width:90px;
+  transform: rotate(150.79deg);
+  box-shadow: 10px 10px 6px rgb(43, 42, 42)
+}
+
+#bottle1
+{
+  width: 31.58px;
+  height: 98.65px;
+  left: 327.41px;
+  top: 120px;
+  position:absolute;
+  background: url(bottle.png);
+  filter: blur(3px);
+  transform: rotate(33.66deg);
+}
+#bottle2
+{
+  width: 31.58px;
+  height: 98.65px;
+  left: 100px;
+  top: 600px;
+  position:absolute;
+  background: url(bottle.png);
+  filter: blur(3px);
+  transform: rotate(33.66deg);
+}
+/* text content style */
+#styling
+{
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  color:white;
+
+}
+
+#styling2
+{
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color:grey;
+  position:relative;
+}
+/* Styling of the rating block */
+#rating
+{
+  background-color:forestgreen;
+  border:1px solid forestgreeen;
+  border-radius:18px;
+  width:130px;
+  height:25px;
+  
+
+}
+/* review text */
+#review
+{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color:dimgray;
+}
+
+#price
+{
+  color:dimgray;
+  text-decoration: line-through;
+}
+/* Styling of the 2 block elements */
+#section1
+{
+  background-color:rgb(36, 36, 36);
+  border-radius:18px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:10px;
+  padding-top:3px;
+}
+
+#section2
+{
+  background-color:rgba(55, 75, 91, 1);
+  border-radius:18px;
+  padding-left:20px;
+  padding-right:20px;
+  border:2px solid white;
+
+}
+/* old price */
+#span-style1
+{
+   color: rgba(70, 93, 104, 1);
+   display : block ;
+   float:right;
+   text-decoration:line-through;
+}
+/* old price */
+#span-style2
+{
+  color:rgba(40, 51, 61, 1) ;
+  display:block ;
+   float:right;
+   text-decoration:line-through;
+}
+/* Interactive element*/
+.after-click
+{
+  background-color:rgba(55, 75, 91, 1);
+  border-radius:18px;
+  padding-left:20px;
+  padding-right:20px;
+  border:1px solid white;
+}
